@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    font-family: PP Telegraf, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
+
 /* banner container  */
 .banner_container {
-    background-image: url("https://cdn.pixabay.com/photo/2022/11/07/20/23/new-york-7577186_640.jpg");
+    background-image: url("../src/assets/images/bannerImg/bannerbackgroundImg.png");
     background-size: cover;
-  }
+}
+/* constactUs_container   */
+.constactUs_container {
+    background-image: url("../src/assets/images/ContactUs/BannerImg/backgroundImg.png");
+    background-size: cover;
+}

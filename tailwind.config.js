@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        headingColor: '#000000',
+        subHeaderColor:'#000000',
+        paragraphColor: '#5B5B5B',
+        titleColor: '#2AB04A',
+        dashboardTextColor: '#878787'
+      },
+    },
     screens: {
       xs: "320px",
       sm: "375px",
