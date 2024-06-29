@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: PP Telegraf, sans-serif;
+}
+/* banner container  */
+.banner_container {
+    background-image: url("https://cdn.pixabay.com/photo/2022/11/07/20/23/new-york-7577186_640.jpg");
+    background-size: cover;
+  }
